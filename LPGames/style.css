@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://metodoquebracassinos.com/wp-content/uploads/2024/02/Bg-01-2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .sessao {
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+/* Adicione os estilos para a grade e os quadradinhos aqui */
+.sessao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+  }
+  
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .quadradinho {
+    position: relative; /* Adicionado para que o conteúdo absoluto na barra de progresso fique dentro do quadradinho */
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .quadradinho img {
+    width: 200px;
+    min-height: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .progresso {
+    background-color: rgb(0, 255, 21); /* Cor padrão da barra de progresso */
+    position: relative;
+    overflow: hidden; /* Garante que a largura seja respeitada */
+    border-radius: 10px;
+  }
+  
+  .porcentagem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+  /* Estilos para telas grandes (desktops e laptops) */
+@media only screen and (min-width: 1024px) {
+  .sessao {
+    margin: 2%;
+  }
+}
+
+/* Estilos para telas médias (tablets) */
+@media only screen and (max-width: 1023px) {
+  .sessao {
+    margin: 3%;
+  }
+}
+
+/* Estilos para telas pequenas (dispositivos móveis) */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 5%;
+  }
+
+  .sessao {
+    margin: 5%;
+  }
+
+  #grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quadradinho img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Garante que a imagem seja redimensionada para caber dentro do contêiner mantendo a proporção */
+    border-radius: 10px;
+}
+}
