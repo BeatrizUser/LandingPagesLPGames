@@ -97,23 +97,25 @@ const games = [
       const barraProgresso = quadradinho.querySelector('.progresso');
   
       // Obtendo um valor aleatório entre 12% e 100%
-      const progressoAtual = Math.floor(Math.random() * (100 - 12 + 1)) + 12;      
+      const progressoAtual = Math.floor(Math.random() * (100 - 24 + 1)) + 24;      
   
       // Atualizando o estilo da barra de progresso
       barraProgresso.style.width = progressoAtual + '%';
   
       // Atualizando o valor da porcentagem ao centro da barra de progresso
       const porcentagemTexto = quadradinho.querySelector('.porcentagem');
+      porcentagemTexto.textContent = progressoAtual + '%';
+
       quadradinho.classList.add('quadradinho');
       
-      games.minuto = "> MINUTO PAGANTE: " + Math.floor(Math.random() * (8 - 1 + 1));
+      games.minuto = "MINUTO PAGANTE: " + Math.floor(Math.random() * (8 - 1 + 1));
       const minutoTag = quadradinho.querySelector('.minuto');
       minutoTag.textContent = games.minuto;
 
       // Definindo cores da barra de acordo com o progresso
-      if (progressoAtual < 20) {
+      if (progressoAtual < 30) {
         barraProgresso.style.backgroundColor = 'red';
-      } else if (progressoAtual < 60) {
+      } else if (progressoAtual < 70) {
         barraProgresso.style.backgroundColor = 'yellow';
       } else {
         barraProgresso.style.backgroundColor = 'green';
@@ -138,7 +140,7 @@ const games = [
     quadradinho.appendChild(imagem);
   
     // Criando o título
-    const titulo = document.createElement('h3');
+    const titulo = document.createElement('h5');
     titulo.textContent = game.nome;
     quadradinho.appendChild(titulo);
   
