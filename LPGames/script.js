@@ -126,7 +126,7 @@ const games = [
   
   // Chamando a função de atualização a cada 5 minutos
   const atualizar = atualizarProgresso()
-  setInterval(atualizarProgresso, 0.01 * 60 * 1000);
+  setInterval(atualizarProgresso, 1 * 60 * 1000);
   
   // Iterando sobre os jogos para criar os quadradinhos
   games.forEach(game => {
@@ -158,7 +158,7 @@ const games = [
     // Criando a barra de progresso
     const barraProgresso = document.createElement('div');
     barraProgresso.classList.add('progresso');
-    barraProgresso.style.width = '80%'; // Inicialmente, a barra de progresso começa com 0%
+    barraProgresso.style.width = '100%'; // Inicialmente, a barra de progresso começa com 0%
     barraProgresso.style.height = '30px';
     barraProgresso.style.marginTop = '5px';
     barraProgresso.style.border_radius = '15px';
@@ -167,12 +167,12 @@ const games = [
     // Criando o elemento de texto para a porcentagem
     const porcentagemTexto = document.createElement('span');
     porcentagemTexto.classList.add('porcentagem');
-    porcentagemTexto.textContent = '0%';
+    porcentagemTexto.textContent = 'Carregando...';
     porcentagemTexto.style.position = 'absolute';
     porcentagemTexto.style.top = '50%';
     porcentagemTexto.style.left = '50%';
     porcentagemTexto.style.transform = 'translate(-50%, -50%)';
-    porcentagemTexto.style.color = 'white';
+    porcentagemTexto.style.color = 'black';
     barraProgresso.appendChild(porcentagemTexto);
   
     // Adicionando o quadradinho ao grid
