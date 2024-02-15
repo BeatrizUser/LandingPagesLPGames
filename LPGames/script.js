@@ -1,28 +1,28 @@
 const games = [
     {
         nome: "Fortune Tiger",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
+        url: "https://mmabet.com/casino/game/2509147?bta=52135&brand=mmabet",
         minuto: "> MINUTO PAGANTE: 6",
         hacker: "Plataforma: Hacker ON",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
     },
     {
         nome: "Fortune Rabbit",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
+        url: "https://mmabet.com/casino/game/2533656?bta=52135&brand=mmabet",
         minuto: "> MINUTO PAGANTE: 6",
         hacker: "Plataforma: Hacker ON",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/128249.png",
     },
     {
         nome: "Fortune Ganesha",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
+        url: "https://mmabet.com/casino/game/2509128?bta=52135&brand=mmabet",
         minuto: "> MINUTO PAGANTE: 6",
         hacker: "Plataforma: Hacker ON",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/ganesha.jpg",
     },
     {
         nome: "Fortune Ox",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
+        url: "https://mmabet.com/casino/game/2509116?bta=52135&brand=mmabet",
         minuto: "> MINUTO PAGANTE: 6",
         hacker: "Plataforma: Hacker ON",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/07/fortune-ox-thumbnail.jpg",
@@ -30,59 +30,59 @@ const games = [
     
     {
         nome: "Ninja Crash",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
+        url: "https://mmabet.com/casino/game/2645471?bta=52135&brand=mmabet",
         minuto: "> MINUTO PAGANTE: 6",
         hacker: "Plataforma: Hacker ON",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/10/WhatsApp-Image-2023-09-28-at-12.09.11.jpeg",
     },
     {
         nome: "Fortune Mouse",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
+        url: "https://mmabet.com/casino/game/2509188?bta=52135&brand=mmabet",
         minuto: "> MINUTO PAGANTE: 6",
         hacker: "Plataforma: Hacker ON",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-MOUSE.png",
     },
     {
         nome: "The Great IceScape",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
+        url: "https://mmabet.com/casino/game/2509155?bta=52135&brand=mmabet",
         minuto: "> MINUTO PAGANTE: 6",
         hacker: "Plataforma: Hacker ON",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/ice.png",
     },
     {
         nome: "Gates of Olympus",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
+        url: "https://mmabet.com/casino/game/2087760?bta=52135&brand=mmabet",
         minuto: "> MINUTO PAGANTE: 6",
         hacker: "Plataforma: Hacker ON",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/07/6.webp",
     },
     {
         nome: "Aviator",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
+        url: "https://mmabet.com/casino/game/1687965?bta=52135&brand=mmabet",
         minuto: "> MINUTO PAGANTE: 6",
         hacker: "Plataforma: Hacker ON",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/06/avi2.jpeg",
     },
     {
         nome: "Spaceman",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
+        url: "https://mmabet.com/casino/game/2087816?bta=52135&brand=mmabet",
         minuto: "> MINUTO PAGANTE: 6",
         hacker: "Plataforma: Hacker ON",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/06/Logo.webp",
     },
     {
-        nome: "Piggy Gold",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
-        minuto: "> MINUTO PAGANTE: 6",
-        hacker: "Plataforma: Hacker ON",
-        imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/piggygold.jpg",
+      nome: "Piggy Gold",
+      url: "https://mmabet.com/casino/game/2509154?bta=52135&brand=mmabet",
+      minuto: "> MINUTO PAGANTE: 6",
+      hacker: "Plataforma: Hacker ON",
+      imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/piggygold.jpg",
     },
     {
-        nome: "Mines",
-        url: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
-        minuto: "> MINUTO PAGANTE: 6",
-        hacker: "Plataforma: Hacker ON",
-        imagem: "https://hackspragmatic.com/wp-content/uploads/2023/06/mines-logo.webp",
+      nome: "Mines",
+      url: "https://mmabet.com/casino/game/1687968?bta=52135&brand=mmabet",
+      minuto: "> MINUTO PAGANTE: 6",
+      hacker: "Plataforma: Hacker ON",
+      imagem: "https://hackspragmatic.com/wp-content/uploads/2023/06/mines-logo.webp",
     },
   ];
   
@@ -132,34 +132,69 @@ const games = [
   const atualizar = atualizarProgresso()
   setInterval(atualizarProgresso, 0.02 * 60 * 1000);
   
-  // Iterando sobre os jogos para criar os quadradinhos
-games.forEach(game => {
-  // Criando o elemento de quadradinho
-  const quadradinho = document.createElement('div');
-  quadradinho.classList.add('quadradinho', "col-lg-3", "col-md-6", "mb-4");
+  games.forEach(game => {
+    // Criando o elemento de quadradinho
+    const quadradinho = document.createElement('div');
+    quadradinho.classList.add('quadradinho', 'col-lg-3', 'col-md-6', 'mb-4');
 
-  // Criando a imagem
-  const imagem = document.createElement('img');
-  imagem.src = game.imagem;
-  quadradinho.appendChild(imagem);
+    // Criando o contêiner para a imagem e o botão
+    const container = document.createElement('div');
+    container.style.position = 'relative'; // Define o posicionamento relativo para permitir o posicionamento absoluto do botão
+    quadradinho.appendChild(container);
 
-  // Criando o título
-  const titulo = document.createElement('h6');
-  titulo.textContent = game.nome;
-  quadradinho.appendChild(titulo);
+    // Criando a imagem
+    const imagem = document.createElement('img');
+    imagem.src = game.imagem;
+    imagem.style.cursor = 'pointer'; // Adicionando estilo para mostrar que é clicável
+    imagem.style.width = '100%'; // Garante que a imagem ocupe todo o espaço disponível no contêiner
+    imagem.addEventListener('mouseover', function() {
+        this.style.transform = 'scale(1.1)'; // Aumenta a imagem em 1.1x ao passar o mouse sobre ela
+    });
+    imagem.addEventListener('mouseout', function() {
+        this.style.transform = 'scale(1)'; // Retorna ao tamanho normal ao retirar o mouse
+    });
+    container.appendChild(imagem);
 
-  // Criando o minuto pagante
-  const minuto = document.createElement('p');
-  minuto.classList.add('minuto');
-  minuto.textContent = "MINUTO PAGANTE: " + Math.floor(Math.random() * (8 - 1 + 1)); // Modificado aqui
-  quadradinho.appendChild(minuto);
+    // Criando o botão "Jogar"
+    const botaoJogar = document.createElement('a');
+    botaoJogar.classList.add("btn","btn-dark","btn-lg")
+    botaoJogar.textContent = 'JOGAR';
+    botaoJogar.href = game.url;
+    botaoJogar.style.position = 'absolute'; // Define o posicionamento absoluto para o botão
+    botaoJogar.style.top = '50%'; // Centraliza verticalmente o botão no contêiner
+    botaoJogar.style.left = '50%'; // Centraliza horizontalmente o botão no contêiner
+    botaoJogar.style.transform = 'translate(-50%, -50%)'; // Ajusta o botão para que fique perfeitamente centralizado
+     // Adiciona o cursor de apontar ao botão
+    botaoJogar.style.opacity = '0'; // Define a opacidade como 0 inicialmente para ocultar o botão
+    botaoJogar.style.transition = 'opacity 1s ease'; // Adiciona uma transição suave para a opacidade
+    container.appendChild(botaoJogar);
 
-  // Criando o Hacker ON
-  const hacker = document.createElement('p');
-  hacker.textContent = game.hacker;
-  quadradinho.appendChild(hacker);
+    // Adicionando o evento de mostrar o botão "Jogar" ao passar o mouse sobre o contêiner
+    container.addEventListener('mouseover', function() {
+        botaoJogar.style.opacity = '1'; // Torna o botão visível ao passar o mouse sobre o contêiner
+    });
+    // Adicionando o evento de ocultar o botão "Jogar" ao retirar o mouse do contêiner
+    container.addEventListener('mouseout', function() {
+        botaoJogar.style.opacity = '0'; // Oculta o botão ao retirar o mouse do contêiner
+    });
 
-  // Criando a barra de progresso do Bootstrap
+    // Criando o título
+    const titulo = document.createElement('h6');
+    titulo.textContent = game.nome;
+    quadradinho.appendChild(titulo);
+
+    // Criando o minuto pagante
+    const minuto = document.createElement('p');
+    minuto.classList.add('minuto');
+    minuto.textContent = game.minuto;
+    quadradinho.appendChild(minuto);
+
+    // Criando o Hacker ON
+    const hacker = document.createElement('p');
+    hacker.textContent = game.hacker;
+    quadradinho.appendChild(hacker);
+
+     // Criando a barra de progresso do Bootstrap
   const progressoBootstrap = document.createElement('div');
   progressoBootstrap.classList.add('progress');
   progressoBootstrap.style.height = '30px';
@@ -178,8 +213,8 @@ games.forEach(game => {
   progressoBootstrap.appendChild(barraProgresso);
 
   quadradinho.appendChild(progressoBootstrap);
-  // Adicionando o quadradinho ao grid
-  grid.appendChild(quadradinho);
-});
 
-  
+    // Adicionando o quadradinho ao grid
+    grid.appendChild(quadradinho);
+
+});

@@ -21,9 +21,12 @@ body {
   
   .quadradinho img {
     width: 200px;
-    min-height: 200px;
-    height: auto;
+    height: 200px;
     border-radius: 10px;
+    transition: all 1s;
+  }
+  a {
+    text-decoration: none;
   }
   /* Estilos para telas grandes (desktops e laptops) */
 @media only screen and (min-width: 1024px) {
@@ -50,9 +53,11 @@ body {
   }
 
   .quadradinho img {
-    width: 100%;
-    height: auto;
     object-fit: cover; /* Garante que a imagem seja redimensionada para caber dentro do contêiner mantendo a proporção */
     border-radius: 10px;
-}
+  }
+  
+  .btn{
+    opacity: 1;
+  }
 }
