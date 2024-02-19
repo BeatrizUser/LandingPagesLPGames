@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+body {
+  font-family: "Anta", sans-serif; /* Define uma fonte padrão */
+  color: #fff; /* Define uma cor de texto padrão */
+  position: relative; /* Garante que a posição do conteúdo seja relativa */
+  background-color: black;
+  background-image: url("/LPBacBo/Imagens/Bg-01.jpg");
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/LPBacBo/Imagens/Bg-01.jpg");
+  background-size: cover; /* Garante que a imagem de fundo cubra todo o corpo */
+  background-position: center; /* Centraliza a imagem de fundo */
+  filter: blur(3px); /* Adiciona um desfoque de 5 pixels ao fundo */
+  z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7); /* Adiciona uma camada semi-transparente para melhor legibilidade */
+  padding: 20px;
+  border-radius: 10px; /* Adiciona bordas arredondadas ao container */
+}
+
+#gerarAposta {
+  margin-bottom: 20px; /* Adiciona espaço entre o botão e o resultado */
+}
+.progress{
+  height: 40px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#resultado {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px; /* Reduz o espaçamento superior para uma aparência mais equilibrada */
+}
+.barra-container {
+  display: flex; /* Exibe as barras lado a lado */
+}
+
+.barra {
+  position: relative;
+  height: 30px;
+  border-radius: 0px; /* Borda arredondada */
+}
+
+.barra-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centraliza o texto vertical e horizontalmente */
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.barra-azul {
+  box-shadow: 0px 0px 10px rgb(51, 51, 240);
+  flex: 1; /* Faz a barra azul ocupar o espaço disponível */
+  background-color: rgb(29, 29, 107); /* Cor da barra azul */
+}
+
+.barravermelha {
+  box-shadow: 0px 0px 10px rgbargb(153, 1, 1);
+  flex: 1; /* Faz a barra vermelha ocupar o espaço disponível */
+  background-color: rgbargb(153, 1, 1);
+}
+
+iframe {
+  width: 70vw;
+  height: 40vh;
+  border: none; /* Remove a borda do iframe */
+  border-radius: 20px; /* Adiciona bordas arredondadas ao iframe */
+}
+
+.shapeazul{
+	width: 180px;
+	height: 80px;
+	shape-margin: 5px;
+	shape-image-threshold: 0.5;
+	background: rgb(7, 1, 129);
+  background: linear-gradient(0deg,rgb(33, 7, 180) 49%, rgb(7, 5, 105) 100%);
+	mask-image: url(/LPBacBo/Imagens/vermelho.png);
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+.shapevermelho{
+	width: 180px;
+	height: 80px;
+	shape-margin: 5px;
+	shape-image-threshold: 0.5;
+  background: rgb(153, 1, 1);
+  background: linear-gradient(0deg,rgb(230, 7, 7) 49%, rgb(105, 5, 5) 100%);
+  mask-image: url(/LPBacBo/Imagens/azul.png);
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+.shapeempate{
+	width: 120px;
+	height: 120px;
+	shape-margin: 5px;
+	shape-image-threshold: 0.5;
+	background: rgb(226, 162, 0);
+  background: linear-gradient(0deg,rgb(214, 182, 0) 49%, rgba(119,89,14,1) 100%);
+	mask-image: url(/LPBacBo/Imagens/empate.png);
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.shapeempate{
+  filter: drop-shadow(10px 10px 500px rgb(255, 255, 255));
+}
+
+
+
+.borderDice {
+  border-radius: 20px;
+  background-color: #0000008f;
+  padding: 5%;
+  border: 5vh solid transparent;
+  border-image: url("/LPBacBo/Imagens/borda.png") 150 round;
+  max-width: 90%; /* Limita a largura para garantir que o conteúdo seja responsivo */
+}
