@@ -31,7 +31,7 @@ body::before {
 #gerarAposta {
   width: 50vw;
   height: 5vh;
-  margin-bottom: 20px; /* Adiciona espaço entre o botão e o resultado */
+  margin-bottom: 10px; /* Adiciona espaço entre o botão e o resultado */
 }
 .progress{
   height: 40px;
@@ -154,7 +154,7 @@ iframe {
   .shapevermelho,
   .shapeempate {
   margin: 0;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: #fff;
 }
@@ -195,4 +195,13 @@ iframe {
 
 .imgLogo{
   width: 50%;
+}
+
+.dice {
+  opacity: 0; /* Começa com opacidade 0 para não ser visível */
+  transition: opacity ease 1.3s; /* Define a transição para a propriedade de opacidade */
+}
+
+.dice.show {
+  opacity: 1; /* Quando a classe show é adicionada, a opacidade muda para 1, fazendo com que apareça lentamente */
 }

@@ -71,11 +71,12 @@ document.getElementById('gerarAposta').addEventListener('click', function() {
 });
 
 function exibirLoading() {
-  var loadingElement = document.getElementById('loading');
-  // loadingElement.innerHTML = '<div class="spinner-border text-secondary" role="status"><span class="sr-only">Loading...</span></div>';
-  loadingElement.innerHTML = '<img src="/LPBacBo/Imagens/dadinhos.gif" alt="" srcset="">'
+  // Para inserir o GIF e fazer aparecer lentamente
+  document.querySelector('.dice').classList.add('show');
+  // Para remover o GIF e fazer desaparecer lentamente
+  ;
   setTimeout(function() {
-    loadingElement.innerHTML = ''; // Remove o conteúdo do elemento de loading
+    document.querySelector('.dice').classList.remove('show')
   }, 5000);
 }
 
