@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 body {
   font-family: "Anta", sans-serif;
-  background-image: url("/LPBacBo/Imagens/Bg-01-mobile.jpg");
+  background-image: url("Imagens/Bg-01-mobile.jpg");
   position: relative;
   margin: 0;
 }
@@ -13,7 +13,7 @@ body::before {
   left: -10px;
   width: 100%; /* Largura igual à largura do corpo */
   height: 100%; /* Altura igual à altura do corpo */
-  background-image: url("/LPBacBo/Imagens/Bg-01-mobile.jpg");
+  background-image: url("Imagens/Bg-01-mobile.jpg");
   background-size: cover; /* Garante que a imagem de fundo cubra todo o corpo */
   background-position: center; /* Centraliza a imagem de fundo */
   filter: blur(2px); /* Aplica o efeito de desfoque */
@@ -189,12 +189,12 @@ iframe {
   background-color: #0000008f;
   padding: 1%;
   border: 4.5vh solid transparent;
-  border-image: url("/LPBacBo/Imagens/borda.png") 150 round;
+  border-image: url("Imagens/borda.png") 150 round;
   max-width: 90%; /* Limita a largura para garantir que o conteúdo seja responsivo */
 }
 
 .imgLogo{
-  width: 50%;
+  width: 35vh;
 }
 
 .dice {
