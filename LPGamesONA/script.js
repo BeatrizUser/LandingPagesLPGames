@@ -1,28 +1,28 @@
 const games = [
     {
         nome: "Fortune Tiger",
-        url: "https://mmabet.com/casino/game/2509147?bta=52135&brand=mmabet",
+        url: "https://onabet.com/casino/game/2527279?bta=44409&nci=5341",
         minuto: "> MINUTO PAGANTE: -",
         hacker: "Plataforma: Hacker",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-TIGER.png",
     },
     {
         nome: "Fortune Rabbit",
-        url: "https://mmabet.com/casino/game/2533656?bta=52135&brand=mmabet",
+        url: "https://onabet.com/casino/game/2533956?bta=44409&nci=5341",
         minuto: "> MINUTO PAGANTE: -",
         hacker: "Plataforma: Hacker",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/128249.png",
     },
     {
         nome: "Fortune Ganesha",
-        url: "https://mmabet.com/casino/game/2509128?bta=52135&brand=mmabet",
+        url: "https://onabet.com/casino/game/2527260?bta=44409&nci=5341",
         minuto: "> MINUTO PAGANTE: -",
         hacker: "Plataforma: Hacker",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/ganesha.jpg",
     },
     {
         nome: "Fortune Ox",
-        url: "https://mmabet.com/casino/game/2509116?bta=52135&brand=mmabet",
+        url: "https://onabet.com/casino/game/2527248?bta=44409&nci=5341",
         minuto: "> MINUTO PAGANTE: -",
         hacker: "Plataforma: Hacker",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/07/fortune-ox-thumbnail.jpg",
@@ -30,56 +30,56 @@ const games = [
     
     {
         nome: "Ninja Crash",
-        url: "https://mmabet.com/casino/game/2645471?bta=52135&brand=mmabet",
+        url: "https://onabet.com/casino/game/2636765?bta=44409&nci=5341",
         minuto: "> MINUTO PAGANTE: -",
         hacker: "Plataforma: Hacker",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/10/WhatsApp-Image-2023-09-28-at-12.09.11.jpeg",
     },
     {
         nome: "Fortune Mouse",
-        url: "https://mmabet.com/casino/game/2509188?bta=52135&brand=mmabet",
+        url: "https://onabet.com/casino/game/2527320?bta=44409&nci=5341",
         minuto: "> MINUTO PAGANTE: -",
         hacker: "Plataforma: Hacker",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/CAPA-FORTUNE-MOUSE.png",
     },
     {
         nome: "The Great IceScape",
-        url: "https://mmabet.com/casino/game/2509155?bta=52135&brand=mmabet",
+        url: "https://onabet.com/casino/game/2527287?bta=44409&nci=5341",
         minuto: "> MINUTO PAGANTE: -",
         hacker: "Plataforma: Hacker",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/ice.png",
     },
     {
         nome: "Gates of Olympus",
-        url: "https://mmabet.com/casino/game/2087760?bta=52135&brand=mmabet",
+        url: "https://onabet.com/casino/game/2245112?bta=44409&nci=5341",
         minuto: "> MINUTO PAGANTE: -",
         hacker: "Plataforma: Hacker",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/07/6.webp",
     },
     {
         nome: "Aviator",
-        url: "https://mmabet.com/casino/game/1687965?bta=52135&brand=mmabet",
+        url: "https://onabet.com/casino/game/2241819?bta=44409&nci=5341",
         minuto: "> MINUTO PAGANTE: -",
         hacker: "Plataforma: Hacker",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/06/avi2.jpeg",
     },
     {
         nome: "Spaceman",
-        url: "https://mmabet.com/casino/game/2087816?bta=52135&brand=mmabet",
+        url: "https://onabet.com/casino/game/2245169?bta=44409&nci=5341",
         minuto: "> MINUTO PAGANTE: -",
         hacker: "Plataforma: Hacker",
         imagem: "https://hackspragmatic.com/wp-content/uploads/2023/06/Logo.webp",
     },
     {
       nome: "Piggy Gold",
-      url: "https://mmabet.com/casino/game/2509154?bta=52135&brand=mmabet",
+      url: "https://onabet.com/casino/game/2527286?bta=44409&nci=5341",
       minuto: "> MINUTO PAGANTE: -",
       hacker: "Plataforma: Hacker",
       imagem: "https://hackspragmatic.com/wp-content/uploads/2023/08/piggygold.jpg",
     },
     {
       nome: "Mines",
-      url: "https://mmabet.com/casino/game/1687968?bta=52135&brand=mmabet",
+      url: "https://onabet.com/casino/game/2241845?bta=44409&nci=5341",
       minuto: "> MINUTO PAGANTE: -",
       hacker: "Plataforma: Hacker",
       imagem: "https://hackspragmatic.com/wp-content/uploads/2023/06/mines-logo.webp",
@@ -136,7 +136,15 @@ const games = [
   // Chamando a função de atualização a cada 5 minutos
   const atualizar = atualizarProgresso()
   setInterval(atualizarProgresso, 0.35 * 60 * 1000);
-  
+
+  function abrirSite(url) {
+    // Mostra o iframe e carrega o site dentro dele
+    var iframe = document.getElementById('iframeSite');
+    iframe.style.display = 'block';
+    iframe.src = url;
+    return false; // Retorna falso para cancelar a ação padrão do link
+}
+
   games.forEach(game => {
     // Criando o elemento de quadradinho
     const quadradinho = document.createElement('div');
@@ -163,9 +171,10 @@ const games = [
     // Criando o botão "Jogar"
     const botaoJogar = document.createElement('a');
     botaoJogar.classList.add("btn","btn-success","btn-lg")
+    botaoJogar.onclick = function() {
+      return abrirSite(game.url); // Chama a função abrirSite e retorna seu valor para cancelar a ação padrão do link
+    };  
     botaoJogar.textContent = 'JOGAR';
-    botaoJogar.href = game.url;
-    botaoJogar.target = "_blank";
     botaoJogar.style.fontWeight = "bold";
     botaoJogar.style.position = 'absolute'; // Define o posicionamento absoluto para o botão
     botaoJogar.style.top = '50%'; // Centraliza verticalmente o botão no contêiner

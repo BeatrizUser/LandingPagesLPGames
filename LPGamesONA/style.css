@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-image: url('https://metodoquebracassinos.com/wp-content/uploads/2024/02/Bg-01-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    color: white;
+  }
+  progress{
+    height: 100px;
+  }
+  .quadradinho {
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .quadradinho img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 1s;
+  }
+  h1{
+    font-family: "Anton", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  .btn-lg{
+    width: 100%;
+  }
+  .section1{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+  }
+  /* Estilos para telas grandes (desktops e laptops) */
+@media only screen and (min-width: 1024px) {
+  .sessao {
+    margin: 2%;
+  }
+}
+
+/* Estilos para telas médias (tablets) */
+@media only screen and (max-width: 1023px) {
+  .sessao {
+    margin: 3%;
+  }
+}
+
+/* Estilos para telas pequenas (dispositivos móveis) */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 5%;
+  }
+
+  .sessao {
+    margin: 5%;
+  }
+
+  .quadradinho img {
+    object-fit: cover; /* Garante que a imagem seja redimensionada para caber dentro do contêiner mantendo a proporção */
+    border-radius: 10px;
+  }
+
+  .btn{
+    opacity: 1;
+  }
+}
